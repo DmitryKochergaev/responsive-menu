@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  max-width: 80vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+
+  color: white;
+  text-align: center;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  gap: 40px;
+}
+
+.right-panel {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+  max-width: 432px;
+  height: 244px;
+  background-color: #51847a;
+}
+
+.card {
+  min-height: 400px;
+  background-color: gray;
+}
